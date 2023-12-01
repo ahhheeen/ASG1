@@ -3,32 +3,215 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="ID ASG 1">
-        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <link rel="html" type="text/html" href="index.html">
-        <link rel="html" type="text/html" href="assignment 1 - Tourist Attractions.html">
-        <link rel="html" type="text/html" href="dining attractions.html">
-        <link rel="html" type="text/html" href="itinerary.html">
-        <link rel="html" type="text/html" href="guideline.html">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap">
+        <style>
+            .overlay {
+                width: 150px;
+                height: 150px;
+                overflow: hidden;
+                border-radius: 50%;
+            }
+
+            .overlay img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            .images {
+                width: 100%;
+                height: 1000px;
+                margin-bottom: 20px;
+                background-image: url('../ASG1/images/the beatles.jpg');
+                background-position: center;
+            }
+            * {
+                box-sizing:border-box;
+            }
+            /* Four image containers */
+            .column {
+                float: left;
+                width: 25%;
+                padding: 5px;
+            }
+            /* Clear Floats after image containers */
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            /* Four text containers */
+            .column {
+                float:left;
+                width: 25%;
+                padding: 5px;
+                text-align: center;
+            }
+        
+            table {
+                background-color: ghostwhite;
+                text-align: center;
+            }
+        </style>
     </head>
+ 
+<!-- Navigation Bar -->
+
+<ul>
+    <li><a href="index.html" target="_blank">Home</a></li>
+    <li><a href="booking page.html" target="_blank">Bookings</a></li>
+    <li><a href="merch.html" target="_blank">Merchandise</a></li>
+    <li><a href="about us.html" target="_blank">About Us</a></li>
+</ul>    
 
 <body>
-
-<!-- Navigation Bar -->
-<ul class="navbar">
-    <li><a href="index.html" target="_blank">Home</a></li>
-    <li><a href="assignment 1 - Tourist Attractions.html" target="_blank">Bookings</a></li>
-    <li><img src="../ASG1/images/the_beatles_logo-removebg-preview.png"></li>
-    <li><a href="merch.html" target="_blank">Merchandise</a></li>
-    <li><a href="" target="_blank">Contact Us</a></li></li>
-</ul>
-
-<div>
-    <img src="../ASG1/images/the beatles.jpg" >
+    <div class="image"></div>
+    <div class="images">
+    <center>
+    <div class="overlay">
+    <img src="../ASG1/images/the_beatles_logo-removebg-preview.png">
+    </div></center>
 </div>
 
-<br>
+<div>
+    <h1>Music</h1>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/3WrFJ7ztbogyGnTHbHJFl2?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<hr style="color: white;">
+    <h1>History</h1>
+<div class="history">
+    <p>
+    The group began with the pairing of McCartney and Lennon in 1956; Harrison joined in 1957, and Stu Sutcliffe and Pete Best later. In 1960 they adopted the name the Beatles. 
+    In 1962 they signed a recording contract and replaced Best with Starr (Sutcliffe had left the group in 1961). The release in 1962–63 of such songs as “Please Please Me” and 
+    “I Want to Hold Your Hand” made them England’s most popular rock group, 
+    and in 1964 “Beatlemania” struck the U.S. Originally inspired by Chuck Berry, Elvis Presley, Little Richard, and Buddy Holly, among others, their direct, energetic songs kept them at the top of the pop charts.
+    Their long hair and tastes in dress were influential throughout the world.  From 1965 to 1967 the Beatles’ music rapidly evolved, becoming increasingly subtle, sophisticated, and varied—ranging from ballads such 
+    as “Yesterday” to the psychedelic hard rock of “Tomorrow Never Knows.”
+    Albums such as Rubber Soul (1965), Revolver (1966), and The Beatles (“White Album,” 1968) set new trends in rock. In 1967 they produced Sgt. Pepper’s Lonely Hearts Club Band, 
+    an album novel for its conception as a dramatic whole, use of electronic music, and character as a studio work not reproducible onstage. They appeared in the films A Hard Day’s Night (1964) and Help! (1965).
+    In 1988 the Beatles were inducted into the Rock and Roll Hall of Fame
+    </p>
+</div>
 <center><a href="#Top">Back to Top</a></center>
-</html>
+<center><div style=""><table border="1" style="border-collapse:collapse" width="50%">
+    <caption><h1>Contact Us</h1></caption>
+    <tr>
+        <th> Platforms to Contact us </th>
+        <th> Contact Infomation </th>
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td><a href="mailto:questions@thebeatleslive.com.au" target="_blank">The Beatles</a></td>
+    </tr>
+    <tr>
+        <td>Instagram:</td>
+        <td><a href="https://www.instagram.com/" target="_blank">Instagram</a></td>
+    </tr>
+    <tr>
+        <td>Facebook:</td>
+        <td><a href="https://www.facebook.com/"  target="_blank">Facebook</a></td>
+    </tr>
+</table></div></center>
 
+<center>
+    <div>
+    <body style="font-family:Verdana, Geneva, Tahoma, sans-serif;width:85%;margin:auto;">
+        <h1>Booking Form</h1>
+        <hr>
+        <p>
+            "Ready to elevate your event? Book our dynamic band now! Fill out the form with your event details, and let's create an unforgettable experience together. 
+            From weddings to corporate events, we've got your music covered. Get ready for a night of pure musical magic!</p>
+        <form>
+            <p>
+                <label for="name" style="display:inline-block; font-weight:bold; width:200px;">Name:</label>
+                <input type="text" id="name" name="name">
+            </p>
+            <p>
+                <label for="event" style="display:inline-block; font-weight:bold; width:200px;">Event:</label>
+                <input type="radio" id="wedding" name="event" value="wedding">
+                <label for="wedding">Weddings</label>
+                <input type="radio" id="corporate" name="event" value="corporate">
+                <label for="corporate">Corporate Parties</label>                
+                <input type="radio" id="priv" name="event" value="priv">
+                <label for="priv">Private Parties</label>
+                <input type="radio" id="graduation" name="event" value="graduation">
+                <label for="graduation">Graduation</label>
+                <input type="radio" id="birthday" name="event" value="birthday">
+                <label for="birthday">Birthday</label>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" id="email" email="email">
+                <form method="post" action="mailto:s10241792@connect.np.edu.sg" enctype="text/plain">
+            </p>
+            <p>
+                <label for="phone">Phone:</label>
+                <input type="text" id="Phone" phone="phone">
+            </p>
+            <p>
+                <label for="address">Details:</label>
+                <textarea id="address" name="address" 
+                   rows="3" cols="50">
+                </textarea>
+            </p>
+            <p>
+                <label for="other">Others:</label>
+                <textarea id="other" name="other"
+                rows="3" cols="50">
+            </textarea>
+            </p>
+            <input type="submit" value="Submit Form">
+            <input type="reset" value="Clear Form">
+            <form method="post" action="questions@thebeatleslive.com.au" enctype="text/plain">
+            <p>
+        </form>
+    </div></center>
+    <center>
+        <h1>Merchandise</h1>
+    </center>
+    <div class="row">
+        <div class="column">
+            <img src="../ASG1/images/beatles shirt.png" width="230px" height="250px" >
+        </div>
+        <div class="column">
+            <img src="../ASG1/images/beatles shirt black.png" width="230px" height="250px">
+        </div>
+        <div class="column">
+            <img src="../ASG1/images/red crewneck.png" width="230px" height="250px">
+        </div>
+        <div class="column">
+            <img src="../ASG1/images/women hoodie.png" width="230px" height="250px">
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="column">
+            <p>Now and Then / Love Me Do Blue T-Shirt
+                <br>
+                $40.00</p>
+        </div>
+        <div class="column">
+            <p>Revolver Black Photo T-Shirt
+                <br>
+                $40.00</p>
+        </div>
+        <div class="column">
+            <p>Red 1962-1966 Crewneck
+                <br>
+                $60.00</p>
+        </div>
+        <div class="column">
+            <p>The Beatles x Section 119 Hey Jude Classic Hoodie
+                SECTION 119
+                <br>
+                $108.00</p>
+        </div>
+    </div>
+    <center>
+    <a style="float:right" href="#Top">Back to Top</a>
+    </center> 
+</body>
+</html>
 

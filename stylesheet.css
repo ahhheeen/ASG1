@@ -1,4 +1,3 @@
-html, body { height: 100%; width: 100%; margin: 0; }
 
 div {
   display: block;
@@ -6,58 +5,50 @@ div {
   position: relative;
 }
 
-img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  width: auto;
-  display: block;
-}
+/* Add some basic styling for the navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: goldenrod;
+    text-align: center;
+    }
 
-
-/* Style the navigation bar */
-.navbar {
-        color: goldenrod;
-        text-align: center;
-        padding: 20px 20px;
-        text-decoration: none;
-        font-size: 30px;
-}
-
-/* Style navigation bar links
-   Use display: inline-block to display links horizontally (side by side)
-*/
-.navbar li {
+ul li {
     display: inline-block;
-    padding: 30px;
-    
-}
-.navbar li a {
-    color:white;
-}
+    text-align: center;
+    }
 
-/* Change the color of links on hover */
-.navbar a:hover {
+ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+ul li a:hover {
     background-color: #ddd;
     color: black;
 }
 
-.navbar img {
+ul li img {
     height: 100px;
     width: 100px;
 }
+
 /* style attribute for all body element */
 body {
     background-color: #F0E68C;
     width: 100%;
     margin: auto;
-    font-family:'Times New Roman', Times, serif
+    font-family: 'Hedvig Letters Serif', serif;
 }
 
 /* style attribute for all form element */
 form {
-    width: 50%;
+    width: 70%;
     background-color: lavenderblush;
     padding: 10px;
     border-style: solid;
@@ -65,3 +56,8 @@ form {
     border-width:1px;
     border-collapse: collapse;
 }
+
+h1 {
+    text-align: center;
+}
+
