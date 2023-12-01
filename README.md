@@ -16,6 +16,8 @@ We have also incorporated a user-friendly navigation system, providing easy acce
 
 This project is not just a website; it's a digital journey that brings The Beatles into the 21st century, connecting fans across generations and ensuring that the magic of The Beatles lives on in the digital age.
 
+Design Ideation:
+
 The Images used in this website are from: https://usastore.thebeatles.com/
 
 The text in the History section is from: https://www.britannica.com/summary/the-Beatles#:~:text=The%20group%20began%20with%20the,left%20the%20group%20in%201961).
